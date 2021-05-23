@@ -34,7 +34,7 @@
   <h3 align="center">Garmin Running Analysis</h3>
 
   <p align="center">
-    Quuck package created to analyze data from Garmin Connect
+    Quick package created to analyze data from Garmin Connect
     <br />
     <a href="https://connect.garmin.com/"><strong>Garmin Connect »</strong></a>
     <br />
