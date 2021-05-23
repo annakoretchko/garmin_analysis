@@ -96,17 +96,6 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-How to run:
-
-Downdload lastest whl from from the dist folder (here)
-
-create env
-
-cd to downloaded whl file
-
-pip install whl file
-
-python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
 ### Prerequisites
 
 Python is the only requirement for this project (however, enviroment managers such as conda are greatly suggested as well)
