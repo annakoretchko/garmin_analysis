@@ -135,9 +135,9 @@ Python is the only requirement for this project (however, enviroment managers su
    (garmin_env) pip install garmin_analysis-0.X-py3-none-any.whl
    ```
 5. Now run the package which requires two inputs: -data and -output_path 
-  ```sh
-   (garmin_env) python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
-   ```
+    ```sh
+    (garmin_env) python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
+    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
