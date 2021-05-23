@@ -154,12 +154,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Anna Koretchko - [Website](https://anna-koretchko.ue.r.appspot.com/index)
+* Anna Koretchko - [Personal Website](https://anna-koretchko.ue.r.appspot.com/index)
+* Email - annakoretchko@gmail.com
 
-Email: - annakoretchko@gmail.com
 
 
-]
 
 
 
