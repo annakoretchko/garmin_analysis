@@ -122,21 +122,22 @@ Python is the only requirement for this project (however, enviroment managers su
 
 ### Installation and Example Run
 
-1. Create conda environment for garmin_analyis project [Install conda Here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Create conda environment for garmin_analyis project ([install conda Here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
+2. Downdload lastest wheel (whl) from from the dist folder [here] (/dist/garmin_analysis-0.1-py3-none-any.whl)
 
+3. cd to the downloaded wheel file
+   ```sh
+   (garmin_env) cd Downloads/garmin_analysis-0.X-py3-none-any.whl
+   ```
+4. pip install `garmin_analysis-0.X-py3-none-any.whl` to your newly created conda environment
+   ```sh
+   (garmin_env) pip install garmin_analysis-0.X-py3-none-any.whl
+   ```
+5. Now run the package which requires two inputs: -data and -output_path 
+  ```sh
+   (garmin_env) python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
+   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
