@@ -75,9 +75,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<img src="images/Garmin-logo.png" alt="Logo"> 
-
+<p align="center">
+<img src="images/Garmin-logo2.jpeg" alt="Logo"> 
+</p>
 I am an avid running and love using my Garmin Forerunner 945 to collect all the data available while I run. Over the past 8 years, I have accumulated quite a large amount of data. I created this python package for anyone to analyse their Garmin Data from the Garmin Connect site and gain deeper understanding about their running analytics!
 
 If you wanna try on your own but don't have a Garmin account, feel free to use the data in the demo-data folder!
