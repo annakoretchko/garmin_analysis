@@ -26,26 +26,6 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<p>
-I am an avid running and love using my Garmin Forerunner 945 to collect all the data available while I run. Over the past 8 years, I have accumulated quite a large amount of data. I created this python package for anyone to analyse their Garmin Data from the Garmin Connect site and gain deeper understanding about their running analytics!
-
-If you wanna try on your own but don't have a Garmin account, feel free to use the data in the demo-data folder!
-
-Check out demo of the graphs here, on my website! https://anna-koretchko.ue.r.appspot.com/garmin
-
-How to run:
-
-Downdload lastest whl from from the dist folder (here)
-
-create env
-
-cd to downloaded whl file
-
-pip install whl file
-
-python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
-</p>
-
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/garmin3.png" alt="Logo" width="80" height="80">
@@ -61,9 +41,8 @@ python -m garmin_analysis -data "<path to data file from Garmin Connect" -output
     <br />
     <a href="/dist/garmin_analysis-0.1-py3-none-any.whl">Latest Package</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://anna-koretchko.ue.r.appspot.com/garmin">Demo</a>
+
   </p>
 </p>
 
@@ -102,43 +81,48 @@ python -m garmin_analysis -data "<path to data file from Garmin Connect" -output
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+I am an avid running and love using my Garmin Forerunner 945 to collect all the data available while I run. Over the past 8 years, I have accumulated quite a large amount of data. I created this python package for anyone to analyse their Garmin Data from the Garmin Connect site and gain deeper understanding about their running analytics!
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+If you wanna try on your own but don't have a Garmin account, feel free to use the data in the demo-data folder!
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+* If you wanna try on your own but don't have a Garmin account, feel free to use the data in the demo-data folder!
+
+
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Python](https://www.python.org/)
+
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+How to run:
 
+Downdload lastest whl from from the dist folder (here)
+
+create env
+
+cd to downloaded whl file
+
+pip install whl file
+
+python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Python is the only requirement for this project (however, enviroment managers such as conda are greatly suggested as well)
+* python
   ```sh
-  npm install npm@latest -g
+  sudo apt-get install python3.6
   ```
 
-### Installation
+### Installation and Example Run
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Create conda environment for garmin_analyis project [Install conda Here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
