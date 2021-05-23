@@ -54,15 +54,15 @@ python -m garmin_analysis -data "<path to data file from Garmin Connect" -output
     <img src="images/garmin3.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Garmin Running Analysis</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Quuck package created to analyze data from Garmin Connect
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://connect.garmin.com/"><strong>Garmin Connect »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="/dist/garmin_analysis-0.1-py3-none-any.whl">Latest Package</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
