@@ -98,7 +98,7 @@ This section should list any major frameworks that you built your project using.
 
 ### Prerequisites
 
-Python is the only requirement for this project (however, enviroment managers such as conda are greatly suggested as well)
+Python is the only requirement for this project (however, environment managers such as conda are greatly suggested as well)
 * python
   ```sh
   sudo apt-get install python3.6
@@ -108,7 +108,7 @@ Python is the only requirement for this project (however, enviroment managers su
 
 1. Create conda environment for garmin_analyis project ([install conda Here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
-2. Downdload lastest wheel (whl) from from the dist folder [here] (/dist/garmin_analysis-0.1-py3-none-any.whl)
+2. Download the latest wheel (whl) from from the dist folder [here] (/dist/garmin_analysis-0.1-py3-none-any.whl)
 
 3. cd to the downloaded wheel file
    ```sh
@@ -126,7 +126,7 @@ Python is the only requirement for this project (however, enviroment managers su
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This packages allows Garmin Connect users to analyize their data in a pythonic manner, which can be extrapolated further into a myriad of projects! 
+This packages allows Garmin Connect users to analyze their data in a pythonic manner, which can be extrapolated further into a myriad of projects! 
 _To see a live demo of the graphs/outputs, please refer to the [Demo](https://anna-koretchko.ue.r.appspot.com/garmin)_
 
 
